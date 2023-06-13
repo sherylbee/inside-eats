@@ -3,7 +3,7 @@ import MealsSummary from './MealsSummary';
 import AvailableMeals from './AvailableMeals';
 // import AppContext from '../../ctx/app-context'
 
-const Meals = props=>{
+const Meals = props =>{
 
     return(
         <>

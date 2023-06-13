@@ -53,7 +53,7 @@ const AvailableMeals = (props) => {
         img={meal.img}
         description={meal.description}
         >
-        <Button notifyParent={()=>addToCart(meal)} type="addToCart" name='Add to Cart' amount={meal.price.toLocaleString("us-US", {
+        <Button onClick={()=>addToCart(meal)} type="addToCart" name='Add to Cart' amount={meal.price.toLocaleString("us-US", {
           style: "currency",
           currency: "USD",
         })}/>
