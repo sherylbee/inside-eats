@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d31a81c8.css",
+    "main.js": "/static/js/main.f28bb761.js",
+    "static/media/green-bowl.jpg": "/static/media/green-bowl.c767512a1fde704aded4.jpg",
+    "static/media/sushi.jpg": "/static/media/sushi.788870d19e564f9fdca9.jpg",
+    "static/media/street-tacos.jpg": "/static/media/street-tacos.6ab1cf128b38ad4a93a9.jpg",
+    "static/media/ramen.jpg": "/static/media/ramen.ec8f812bd0ca81f59464.jpg",
+    "static/media/mealtime.jpg": "/static/media/mealtime.4865f29045e18b78ae54.jpg",
+    "static/media/pad-thai.jpg": "/static/media/pad-thai.a13256acb5616ea83e7d.jpg",
+    "static/media/pork-chop.jpg": "/static/media/pork-chop.3448854829085bc06890.jpg",
+    "static/media/schnitzel.jpg": "/static/media/schnitzel.f37af013cc8955be77c9.jpg",
+    "static/media/bbq-burger.jpg": "/static/media/bbq-burger.0ad1108f7967a32daecb.jpg",
+    "static/media/salmon.jpg": "/static/media/salmon.4844c1404cacafb4b99c.jpg",
+    "static/media/chef-flame3.jpg": "/static/media/chef-flame3.6f60585fcd0480cf33a0.jpg",
+    "static/media/french-toast.jpg": "/static/media/french-toast.9e230ab34f6c8c04c44b.jpg",
+    "static/media/SmileSignature.otf": "/static/media/SmileSignature.ebf971ebbe674ca192e2.otf",
+    "static/media/Outside.otf": "/static/media/Outside.4f7401c5e60fb95d086c.otf",
+    "static/media/CartoonMarker.ttf": "/static/media/CartoonMarker.362bbf2c94a3322aca7b.ttf",
+    "static/media/CartoonMovie.otf": "/static/media/CartoonMovie.0118fb3b177e834ef436.otf",
+    "static/media/ChocolateBold.ttf": "/static/media/ChocolateBold.fe34571f28a53d352356.ttf",
+    "static/media/logo.png": "/static/media/logo.55e3edc686bbdf04a693.png",
+    "index.html": "/index.html",
+    "main.d31a81c8.css.map": "/static/css/main.d31a81c8.css.map",
+    "main.f28bb761.js.map": "/static/js/main.f28bb761.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d31a81c8.css",
+    "static/js/main.f28bb761.js"
+  ]
+}
