@@ -12,7 +12,7 @@ import AppContext from "../../ctx/app-context"
 const DUMMY_MEALS = [
   {
     id: "m1",
-    name: "Sushi",
+    name: "Sushi Platter",
     description: "Finest fish and veggies",
     price: 22.99,
     img: sushiImg,

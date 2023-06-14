@@ -7,3 +7,6 @@ div.cart{
     right: 7%;
     z-index: 1;
 }
+.cart ul{
+    list-style: none;
+}

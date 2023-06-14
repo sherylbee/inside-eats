@@ -59,13 +59,14 @@
   }
 
   .button.addToCart{
-    color: red;
+    color: #fff6e6;
     padding: 10px 22px;
     transition: scale ease 200ms;
+    font-family: outside;
   }
   .button.addToCart:active{
     transform: scale(.98);
   }
   span.price{
-    padding-left: 3em;
+    padding-left: 1em;
   }

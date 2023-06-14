@@ -1,3 +1,24 @@
+@font-face {
+    font-family: smile;
+    src: url("../../assets/SmileSignature.otf");
+}
+@font-face {
+    font-family: outside;
+    src: url("../../assets/Outside.otf");
+}
+@font-face {
+    font-family: chocolate;
+    src: url("../../assets/ChocolateBold.ttf");
+}
+@font-face {
+    font-family: marker;
+    src: url("../../assets/CartoonMarker.ttf");
+}
+@font-face {
+    font-family: movie;
+    src: url("../../assets/CartoonMovie.otf");
+}
+
 .card{
     border-radius: 10px;
     box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
@@ -6,10 +27,16 @@
     background-color: bisque;
 }
 .card header{
+    /* font-family: smile-signature; */
+    font-family: movie;
+    /* font-family: smile; */
     background-color: white;
     display: flex;
     justify-content: center;
     border-radius: 10px 2px 0;
+    font-size: 1.3em;
+    letter-spacing: 5px;
+    height: 3em;
 }
 .card main{
     height: 25em;
@@ -25,6 +52,12 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0 1em;
-    font-weight: bold;
+    margin: 0 3em;
+    /* font-weight: bold; */
+    /* font-family: movie; */
+}
+
+.card footer p{
+    font-family: chocolate;
+    font-size: 30px;
 }

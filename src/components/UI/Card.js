@@ -10,7 +10,7 @@ const Card = ({title, img, description, children}) => {
         <img src={img} alt={img}/>}
       </main>
       <footer>
-        {description} <span className={styles.price}>{children}</span>
+        <p>{description}</p><span className={styles.price}>{children}</span>
       </footer>
     </div>
   );
