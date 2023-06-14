@@ -10,3 +10,7 @@ div.cart{
 .cart ul{
     list-style: none;
 }
+
+.cart p{
+    margin-left: 2.4em;
+}

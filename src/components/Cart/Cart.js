@@ -25,14 +25,20 @@ const Cart = ({items}) =>{
             cartObj[currentItem.id].price += cartObj[currentItem.id].price;
         }
     }
-    console.log(cartObj)
+    // console.log(cartObj)
+    const USDollar = new Intl.NumberFormat('en-US', {
+        style: 'currency',
+        currency: 'USD',
+    });
     const cartItems = [];
+    let total = 0;
     for (const key in cartObj) {
         cartItems.push(
-            <li> 
-                {cartObj[key].count} {cartObj[key].name} ${cartObj[key].price}
+            <li key={cartObj[key].id}> 
+                {cartObj[key].count} {cartObj[key].name} {USDollar.format(cartObj[key].price)}
             </li>
         )
+        total+=cartObj[key].price;
     }
 
     return(
@@ -40,6 +46,8 @@ const Cart = ({items}) =>{
             <ul className={`${styles['ul']}`}>
             {cartItems}
             </ul>
+            <hr />
+            <p>Total: {`${USDollar.format(total)}`}</p>
         </div>
     )
 }
